@@ -56,6 +56,7 @@ int main() {
             }
         }
 
+
         for (int i=0;i<3;i++) {
             for (int j=0;j<3;j++) {
                 printf("|%3.c %s", tictac[i][j],(j==2 ? "|":""));
@@ -96,6 +97,10 @@ int main() {
 
             }
             printf("\n----------------\n");
+        }
+        if (flag==1) {
+            printf("Winner winner chicken winner.");
+            return 0;
         }
 
 
