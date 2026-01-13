@@ -31,10 +31,7 @@ int main() {
     }
 
     while (h<10) {
-        if (flag==1) {
-            printf("Winner winner chicken winner.");
-            return 0;
-        }
+
         while (true) {
             printf("enter to number 1st player:");
             scanf("%d",&tic);
@@ -56,6 +53,13 @@ int main() {
             }
         }
 
+        control(tictac);
+
+
+
+
+
+
 
         for (int i=0;i<3;i++) {
             for (int j=0;j<3;j++) {
@@ -64,11 +68,12 @@ int main() {
             }
             printf("\n----------------\n");
         }
-        control(tictac);
         if (flag==1) {
             printf("Winner winner chicken winner.");
             return 0;
-        }else if (flag==0&&h==10) {
+        }
+
+        if (flag==0&&h==10) {
             printf("\n\nTIE.");
             return 0;
         }
@@ -98,6 +103,7 @@ int main() {
             }
             printf("\n----------------\n");
         }
+        control(tictac);
         if (flag==1) {
             printf("Winner winner chicken winner.");
             return 0;
