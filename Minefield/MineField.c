@@ -13,7 +13,7 @@ void pen(char map[5][5]) {
         for (int j = 0; j < 5; j++) {
             printf("|%c %s", map[i][j],(j==4 ? "|":" "));
         }
-        printf("\n------------------------------\n");
+        printf("\n--------------------\n");
 
 
     }
@@ -35,9 +35,7 @@ int main() {
         for (int j = 0; j < 5; j++) {
             map[i][j] = ' ';
             minemap[i][j] = ' ';
-            printf("|%2.c %s", map[i][j],(j==4 ? "|":" "));
         }
-        printf("\n-------------------------\n");
     }
 
     int L=0;
@@ -63,6 +61,7 @@ int main() {
     }
 
     int i=0;
+    int mine=0;
     while (i<L) {
 
         satmine=rand()%5;
@@ -87,7 +86,19 @@ int main() {
                 }
         else if (minemap[sat][süt]==' ') {
 
-            map[sat][süt]='T';
+            mine=0;
+
+            for (int i=-1;i<=1;i++) {
+                for (int j=-1;j<=1;j++) {
+                    int k_sat=sat-i;
+                    int k_süt=süt-j;
+                    if (k_sat >= 0 && k_sat < 5 && k_süt >= 0 && k_süt < 5) {
+                        if (minemap[k_sat][k_süt]=='X'){mine++;}
+                    }
+                }
+            }
+
+            map[sat][süt]='0'+mine;
             h++;
 
             pen(map);
@@ -112,7 +123,3 @@ int main() {
 
 
 }
-
-
-
-
