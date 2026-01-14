@@ -38,7 +38,6 @@ while döngüleri: Oyunun kazanma veya kaybetme durumuna kadar akışını yöne
 Geliştirme Önerileri (Todo)
 Gelecekte eklemeyi düşündüğüm özellikler:
 
-[ ] Etraftaki mayın sayısını gösteren ipucu rakamları.
 
 [ ] Daha büyük harita seçenekleri (10x10, 20x20).
 
