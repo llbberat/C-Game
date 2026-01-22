@@ -37,8 +37,6 @@ Null Terminator: Dizilerin sonu \0 ile kapatılarak bellek hataları önlenmişt
 Kullanıcı Deneyimi: Her tahminden sonra kelimenin güncel hali ekrana basılır.
 
 💡 Gelecek Planları (Yapılacaklar)
-[ ] Yanlış tahminler için "Can Hakkı" sistemi eklemek.
 
-[ ] Skor tablosu oluşturmak.
 
 [ ] Daha fazla kategori ve kelime eklemek.
