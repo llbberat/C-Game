@@ -17,8 +17,15 @@ void control(char tictac[3][3]) {
     }
 }
 int main() {
-    char tictac[3][3];
+    char tictac[3][3],player1[20],player2[20];
     int tic,toe,s,c,h=1;
+
+    printf("\n1. Player Name:");
+    scanf("%s",player1);
+
+
+    printf("\n 2.Player Name:");
+    scanf("%s",player2);
 
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
@@ -33,7 +40,7 @@ int main() {
     while (h<10) {
 
         while (true) {
-            printf("enter to number 1st player:");
+            printf("enter to number %s:",player1);
             scanf("%d",&tic);
 
 
@@ -69,7 +76,7 @@ int main() {
             printf("\n----------------\n");
         }
         if (flag==1) {
-            printf("Winner winner chicken winner.");
+            printf("%s Winner winner chicken winner.",player1);
             return 0;
         }
 
@@ -79,7 +86,7 @@ int main() {
         }
 
         while (true) {
-            printf("enter to number 2st player:");
+            printf("enter to number %s:",player2);
             scanf("%d",&toe);
             if (toe<=3) {s=0,c=toe-1;}
             else if (toe<=6) {s=1,c=toe-4;}
@@ -105,7 +112,7 @@ int main() {
         }
         control(tictac);
         if (flag==1) {
-            printf("Winner winner chicken winner.");
+            printf("%s Winner winner chicken winner.",player2);
             return 0;
         }
 
