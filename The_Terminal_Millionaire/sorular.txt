@@ -1,0 +1,25 @@
+Turkiye'nin baskenti neresidir?;Ankara;Istanbul;Izmir;Bursa;A;1
+C dilinde ekrana veri yazdirmak icin hangi fonksiyon kullanilir?;scanf;printf;main;include;B;1
+Hangi veri tipi tam sayilari tutmak icin kullanilir?;float;char;int;double;C;1
+Istiklal Marsi'nin yazari kimdir?;Ziya Gokalp;Namik Kemal;Mehmet Akif Ersoy;Resat Nuri;C;1
+Bir hafta kac gundur?;5;6;7;8;C;1
+Yazilim Muhendisligi bolumu KBU'de hangi fakultededir?;Muhendislik;Edebiyat;Saglik;Isletme;A;2
+Bir byte kac bittir?;4;8;16;32;B;2
+Hangisi bir isletim sistemi degildir?;Windows;Linux;Android;C++;D;2
+C dilinde donguden cikmak icin hangi komut kullanilir?;continue;return;exit;break;D;2
+Su kac derecede kaynar?;90;100;110;120;B;2
+Matrislerde satir ve sutun yer degistirmesine ne denir?;Determinant;Ters;Transpoz;Laplace;C;3
+ASCII tablosunda 'A' harfinin sayisal degeri kactir?;65;97;48;100;A;3
+C dilinde bir dizinin ilk elemaninin indeksi kactir?;-1;0;1;Tanimsiz;B;3
+Hangi bellek birimi bilgisayar kapandiginda sifirlanir?;Harddisk;SSD;RAM;ROM;C;3
+C dilinde 'strcat' fonksiyonu ne ise yarar?;Karsilastirma;Kopyalama;Birlestirme;Uzunluk;C;3
+Dinamik bellek yonetimi icin hangi fonksiyon kullanilir?;malloc;printf;scanf;main;A;4
+Hangisi bir siralama (sorting) algoritmasi degildir?;Bubble;Selection;Insertion;Binary;D;4
+C'de pointer bir degiskenin neyini tutar?;Degerini;Adresini;Boyutunu;Tipini;B;4
+Pi sayisinin yaklasik degeri kactir?;3.10;3.12;3.14;3.16;C;4
+Hangisi bir nesne yonelimli programlama dilidir?;C;Assembly;Java;Pascal;C;4
+Logaritma 10 tabaninda 100 kactir?;1;2;10;100;B;5
+Hangisi bir veri yapisi (data structure) degildir?;Stack;Queue;Tree;Integer;D;5
+Kendi kendini cagiran fonksiyonlara ne ad verilir?;Dinamik;Recursive;Static;Global;B;5
+Isletim sistemlerinde 'kernel' nedir?;Kabuk;Cekirdek;Bellek;Arayuz;B;5
+C dilinde 'volatile' anahtar kelimesi ne icin kullanilir?;Hizlandirma;Optimizasyon Engelleme;Bellek Silme;Sifreleme;B;5
